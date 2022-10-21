@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         System.out.println("Crie uma lista e adcione as sete notas");
-        List<Double> notas = new ArrayList<>(); // Cria um arraylist de dobles usando generics
+        List<Double> notas = new ArrayList<>(); // Cria um arraylist de dobles usando <> generics
         // Adicionar itens a lista
         notas.add(7.0);
         notas.add(8.5);
