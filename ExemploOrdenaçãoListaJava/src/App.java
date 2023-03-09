@@ -23,6 +23,8 @@ public class App {
         System.out.println(meusGatos);
 
         // Ordem natural po nome, utiliza o comparable na classe gato
+        Collections.sort(meusGatos);
+        System.out.println(meusGatos);
 
     }
 }
